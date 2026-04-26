@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../style.css" media="screen">
+<title>Sao Mai Braille (SMB) 25.12</title>
+</head>
+<body>
+<h1>SMB</h1>
+<p>NVDA add-on for Sao Mai Braille program.<br />
+Version 25.12<br />
+Copyright 2022 - 2025 by Sao Mai Technology Team</p>
+<p>Sao Mai Braille (SMB) is a free rich text editing and Braille translation software for Windows, developed by
+<a href="https://www.saomaicenter.org/en">Sao Mai Center for the Blind</a>.
+Right now, there are some accessibility that can't be fixed in the program itself so this small add-on will make NVDA screen reader more accessible to SMB's interface.
+More info about this program can be found at <a href="https://www.saomaicenter.org/en/smsoft/smb">https://www.saomaicenter.org/en/smsoft/smb</a></p>
+<h1>Hotkeys Deprecated</h1>
+<p>Since SMB version 25.5, the following hotkey will be deprecated:</p>
+<ul>
+<li>Alt+F9: Insert equation dialog</li>
+<li>Alt+F10: Insert Picture dialog</li>
+<li>Alt+F11: Insert Music Score dialog</li>
+</ul>
+<p>Instead, we'll use:</p>
+<ul>
+<li>Ctrl+Shift+Q:  Insert equation dialog</li>
+<li>Ctrl+Shift+G: Insert Picture dialog</li>
+<li>Ctrl+Shift+M: Insert Music Score</li>
+</ul>
+<p>This could be easier to remember.
+However, users may already be familiar with the old hotkeys.
+Therefore, this add-on has integrated the old command keys so you can use both types of shortcuts in parallel.</p>
+<p>That said, we still encourage you to use the new shortcuts because of the benefits they bring.</p>
+<p>Starting from version 25.7 of this add-on, we added SMB hotkeys to a script category called "smb", allowing users to customize them through NVDA's Input Gestures dialog when the focus is on Sao Mai Braille window.</p>
+<h1>Translating add-on</h1>
+<p>Currently, this add-on contains strings for the input help message of the deprecated SMB hotkeys, as well as this README file.
+You can translate them via <a href="https://github.com/manhcuong0312/SMB">SMB repository on GitHub</a>,
+or contact us using the information in the Support and Feedback section if you're not familiar with that platform.</p>
+<h1>Support and Feedback</h1>
+<p>We are a small non-profit organization based in Vietnam.
+We mainly rely on project grants to carry out activities to support for visually impaired people.
+We need your help to keep the work going on to better support the visually impaired people.</p>
+<p>Please get in touch with us for any matters with the contact info below:</p>
+<p>Sao Mai Center for the Blind (SMCB)</p>
+<ul>
+<li>Address: 52/22 Huynh Thien Loc, Hoa Thanh, Tan Phu, HCM, Vietnam.</li>
+<li>Email: <a href="mailto:support@saomaicenter.org">support@saomaicenter.org</a></li>
+<li>Contact for translating this add-on: <a href="mailto:tech@saomaicenter.org">tech@saomaicenter.org</a>
+Website: <a href="https://saomaicenter.org/en">https://saomaicenter.org/en</a></li>
+</ul>
+<p>Subscribe/follow our channels below:
+- Subscribe to receive announcements from us by sending a blank email to: news+subscribe@saomaicenter.org
+- Email discussion list: <a href="https://groups.io/g/smcb">https://groups.io/g/smcb</a>
+- Twitter: <a href="https://twitter.com/saomaicenter">https://twitter.com/saomaicenter</a>
+- Facebook: <a href="https://www.facebook.com/saomaifortheblind">fb.com/SaoMaiForTheBlind</a>
+- Youtube: <a href="https://www.youtube.com/@smcenter">https://www.youtube.com/@smcenter</a></p>
+<h1>Change log</h1>
+<h2>2025.12</h2>
+<ul>
+<li>Make the alert message     when press the deprecated hotkeys at wrong place translatable.</li>
+<li>Compatiple with NVDA 2025.3.2.</li>
+<li>Updated translation.</li>
+</ul>
+<h2>2025.10</h2>
+<ul>
+<li>Compatiple with NVDA 2025.3.</li>
+<li>Added Turkish readme (Thanks to Umut KORKMAZ).</li>
+<li>Updated translation.</li>
+</ul>
+<h2>2025.7.2</h2>
+<ul>
+<li>Updated input help for SMB's hotkeys.</li>
+<li>Updated Vietnamese translation. Name of Insert Equation, Insert Picture, and Insert Music Score now matched the SMB' Vietnamese interface.</li>
+</ul>
+<h2>2025.7</h2>
+<ul>
+<li>Added SMB's hotkeys to a script category called "smb", allowing users to customize them while the focus is on  Sao Mai Braille window.</li>
+<li>Compatiple with NVDA 2025.2.</li>
+</ul>
+<h2>2025.5.22</h2>
+<ul>
+<li>If user press the deprecated keys at the wrong place, such as no document existed, an alert message will be spoken.</li>
+</ul>
+<h2>2025.5</h2>
+<ul>
+<li>Updated add-on template to March 2025 version.</li>
+<li>Make input help of three deprecated hotkeys translatable.</li>
+<li>Added Vietnamese readme.</li>
+<li>Updated readme files.</li>
+</ul>
+<h2>2025.4.2</h2>
+<ul>
+<li>Added feature to use new, and deprecated SMB's hotkey together.</li>
+<li>Updated readme files.</li>
+</ul>
+<h2>2025.4</h2>
+<ul>
+<li>Compatiple with NVDA 2025.1.</li>
+<li>Changed URL of add-on repository.</li>
+<li>Updated readme files.</li>
+</ul>
+<h2>2023.12</h2>
+<ul>
+<li>Compatiple with NVDA 2024.1.</li>
+<li>Updated readme file.</li>
+</ul>
+<h2>2023.10</h2>
+<ul>
+<li>Compatiple with NVDA 2023.3.</li>
+<li>Moved Github repository to manhcuong0312's account.</li>
+</ul>
+<h2>2023.9</h2>
+<ul>
+<li>compatible with NVDA 2023.2.</li>
+</ul>
+<h2>2023.4</h2>
+<ul>
+<li>Fix issue with Turkish language, and now, add-on require NVDA 2022.1.0 or later.</li>
+</ul>
+<h2>2023.3</h2>
+<ul>
+<li>Corrected name and summary.</li>
+<li>Updated translation.</li>
+</ul>
+<h2>2023.2</h2>
+<ul>
+<li>compatible with NVDA 2023.1.</li>
+</ul>
+<h2>2023.1</h2>
+<ul>
+<li>compatible with NVDA 2022.4.</li>
+<li>Turkish translation added by Umut KORKMAZ.</li>
+</ul>
+<h2>2022.8</h2>
+<ul>
+<li>Compatible with NVDA 2022.3.</li>
+</ul>
+</body>
+</html>

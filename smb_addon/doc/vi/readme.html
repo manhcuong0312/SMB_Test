@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../style.css" media="screen">
+<title>Sao Mai Braille (SMB) 25.12</title>
+</head>
+<body>
+<h1>SMB</h1>
+<p>NVDA add-on cho phần mềm Sao Mai Braille<br />
+Phiên bản 25.12<br />
+Bản quyền 2022 - 2025 bởi Nhóm Công Nghệ Sao Mai</p>
+<p>Sao Mai Braille (SMB) là phần mềm soạn thảo văn bản định dạng và chuyển dịch chữ nổi miễn phí, phát triển bởi
+<a href="https://www.saomaicenter.org/vi">Sao Mai Vì Người Mù</a>.
+Hiện tại, có một số vấn đề về tiếp cận mà không thể khắc phục trực tiếp trong chương trình. Vì vậy, add-on nhỏ này sẽ giúp trình đọc màn hình NVDA tiếp cận tốt hơn với giao diện của SMB.
+Có thể xem thêm thông tin về chương trình SMB tại <a href="https://www.saomaicenter.org/vi/smsoft/smb">https://www.saomaicenter.org/vi/smsoft/smb</a></p>
+<h1>Các Phím tắt bị loại bỏ</h1>
+<p>Kể từ phiên bản SMB 25.5, các phím tắt sau sẽ bị loại bỏ:</p>
+<ul>
+<li>Alt+F9: mở hộp thoại Insert equation</li>
+<li>Alt+F10: mở hộp thoại Insert Picture</li>
+<li>Alt+F11: mở hộp thoại Insert Music Score</li>
+</ul>
+<p>Thay vào đó, chúng tôi sẽ sử dụng:</p>
+<ul>
+<li>Ctrl+Shift+Q: mở hộp thoại Insert equation</li>
+<li>Ctrl+Shift+G: mở hộp thoại Insert Picture</li>
+<li>Ctrl+Shift+M: mở hộp thoại Insert Music Score</li>
+</ul>
+<p>Điều này có thể giúp người dùng dễ ghi nhớ hơn.
+Tuy nhiên, nhiều người dùng có thể đã quen với các phím tắt cũ.
+Vì vậy, add-on này đã tích hợp các phím lệnh cũ để bạn có thể sử dụng song song cả hai kiểu phím tắt.</p>
+<p>Tuy nhiên, chúng tôi vẫn khuyến khích bạn dùng các phím tắt mới vì những lợi ích mà chúng mang lại.</p>
+<p>Từ phiên bản 25.7 của add-on này, chúng tôi thêm phím tắt của SMB vào phân loại tên SMB để người dùng có thể tùy chỉnh chúng thông qua hộp thoại Quản Lý Thao Tác của NVDA khi đứng tại cửa sổ Sao Mai Braille.</p>
+<h1>Dịch add-on</h1>
+<p>Hiện tại, add-on này bao gồm các chuỗi thông báo trợ giúp nhập cho các phím tắt cũ của SMB, cũng như tập tin README này.
+Bạn có thể dịch chúng thông qua <a href="https://github.com/manhcuong0312/SMB">kho mã SMB trên GitHub</a>,
+hoặc liên hệ với chúng tôi qua thông tin trong phần trợ giúp và phản hồi nếu bạn không quen sử dụng nền tảng đó.</p>
+<h1>trợ giúp và phản hồi</h1>
+<p>Sao Mai Vì Người Mù là một tổ chức phi lợi nhuận quy mô nhỏ, có trụ sở tại HCM, Việt Nam.
+Chúng tôi chủ yếu dựa vào các khoản tài trợ dự án để thực hiện các hoạt động hỗ trợ miễn phí cho người khiếm thị.
+Chúng tôi cần sự giúp đỡ của quý vị để có thể duy trì và mở rộng các hoạt động hỗ trợ này.
+Vui lòng liên hệ với chúng tôi theo thông tin sau:</p>
+<p>Sao Mai Vì Người Mù</p>
+<ul>
+<li>Địa chỉ: 52/22 Huỳnh Thiện Lộc, Hòa Thạnh, Tân Phú, TP.HCM, Việt Nam.</li>
+<li>Email: <a href="mailto:support@saomaicenter.org">support@saomaicenter.org</a></li>
+<li>Liên hệ để dịch add-on này: <a href="mailto:tech@saomaicenter.org">tech@saomaicenter.org</a></li>
+<li>Website: <a href="https://saomaicenter.org/vi">https://saomaicenter.org/vi</a></li>
+</ul>
+<p>Đăng ký tham gia/theo dõi các kênh của chúng tôi:</p>
+<ul>
+<li>Đăng ký nhận thông báo từ chúng tôi bằng cách gửi email trống tới: <a href="mailto:tin+subscribe@saomaicenter.org">tin+subscribe@saomaicenter.org</a></li>
+<li>Diễn đàn trao đổi qua email: <a href="https://groups.io/g/smcb">https://groups.io/g/smcb</a></li>
+<li>X: <a href="https://x.com/saomaicenter">x.com/SaoMaiCenter</a></li>
+<li>Facebook: <a href="https://www.facebook.com/saomaifortheblind">fb.com/SaoMaiForTheBlind</a></li>
+<li>Youtube: <a href="https://www.youtube.com/@smcenter">https://www.youtube.com/@smcenter</a></li>
+</ul>
+<h1>Nhật Kí thay đổi</h1>
+<h2>2025.12</h2>
+<ul>
+<li>
+<ul>
+<li>Cho phép bản địa hóa thông điệp cảnh báo khi dùng các phím tắt cũ không đúng chỗ.</li>
+</ul>
+</li>
+<li>Tương thích với NVDA 2025.3.2.</li>
+<li>Cập nhật bản địa hóa.</li>
+</ul>
+<h2>2025.10</h2>
+<ul>
+<li>Tương thích với NVDA 2025.3.</li>
+<li>Thêm tập tin Readme cho ngôn ngữ Thổ Nhĩ Kỳ (Đóng góp bởi Umut KORKMAZ).</li>
+<li>Cập nhật bản địa hóa.</li>
+</ul>
+<h2>2025.7.2</h2>
+<ul>
+<li>Cập nhật trợ giúp nhập cho phím tắt của SMB.</li>
+<li>Cập nhật bản dịch tiếng Việt. Các thuật ngữ Insert Equation, Insert Picture và Insert Music Score được dịch khớp với giao diện tiếng Việt của SMB.</li>
+</ul>
+<h2>2025.7</h2>
+<ul>
+<li>Thêm phím tắt của SMB vào phân loại tên SMB để người dùng có thể tùy chỉnh chúng thông qua hộp thoại Quản Lý Thao Tác của NVDA khi đứng tại cửa sổ Sao Mai Braille.</li>
+<li>Tương thích với NVDA 2025.2.</li>
+</ul>
+<h2>2025.5.22</h2>
+<ul>
+<li>Cảnh báo đến người dùng nếu dùng các phím tắt cũ khi chưa tạo tài liệu .smd hoặc .smb</li>
+</ul>
+<h2>2025.5</h2>
+<ul>
+<li>Cập nhật mẫu tiện ích bổ sung theo phiên bản tháng 3/2025</li>
+<li>Làm cho trợ giúp đầu vào của ba phím tắt bị loại bỏ có thể dịch được</li>
+<li>Cập nhật tập tin readme</li>
+</ul>
+<h2>2025.4.2</h2>
+<ul>
+<li>Thêm tính năng cho phép sử dụng song song phím tắt mới và cũ của SMB</li>
+<li>Cập nhật tập tin readme</li>
+</ul>
+<h2>2025.4</h2>
+<ul>
+<li>Tương thích với NVDA 2025.1</li>
+<li>Thay đổi địa chỉ kho mã của tiện ích bổ sung</li>
+<li>Cập nhật tập tin readme</li>
+</ul>
+<h2>2023.12</h2>
+<ul>
+<li>Tương thích với NVDA 2024.1</li>
+<li>Cập nhật tập tin readme</li>
+</ul>
+<h2>2023.10</h2>
+<ul>
+<li>Tương thích với NVDA 2023.3</li>
+<li>Chuyển kho mã Github sang tài khoản của manhcuong0312</li>
+</ul>
+<h2>2023.9</h2>
+<ul>
+<li>Tương thích với NVDA 2023.2</li>
+</ul>
+<h2>2023.4</h2>
+<ul>
+<li>Sửa lỗi với ngôn ngữ Thổ Nhĩ Kỳ, và hiện tại tiện ích bổ sung yêu cầu NVDA 2022.1.0 trở lên</li>
+</ul>
+<h2>2023.3</h2>
+<ul>
+<li>Sửa tên và tóm tắt</li>
+<li>Cập nhật bản dịch</li>
+</ul>
+<h2>2023.2</h2>
+<ul>
+<li>Tương thích với NVDA 2023.1</li>
+</ul>
+<h2>2023.1</h2>
+<ul>
+<li>Tương thích với NVDA 2022.4</li>
+<li>Thêm bản dịch tiếng Thổ Nhĩ Kỳ bởi Umut KORKMAZ</li>
+</ul>
+<h2>2022.8</h2>
+<ul>
+<li>Tương thích với NVDA 2022.3</li>
+</ul>
+</body>
+</html>
